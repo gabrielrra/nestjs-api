@@ -5,9 +5,7 @@ import { Transaction } from './entities/transaction.entity';
 
 @Injectable()
 export class TransactionsService {
-  constructor(private transactionModel: typeof Transaction) {
-    transactionModel.
-  }
+  constructor(private transactionModel: typeof Transaction) {}
 
   create(createTransactionDto: CreateTransactionDto) {
     return 'This action adds a new transaction';
